@@ -24,5 +24,10 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.Rotate(0, -90, 0);
         }
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            transform.Rotate(0, 90, 0);
+        }
     }
 }
